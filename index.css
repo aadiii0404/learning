@@ -1,0 +1,91 @@
+body{
+    margin: 0%;
+ }
+ /* Header Styles */
+ h1 {
+    background-color: crimson;
+    color: azure;
+    text-align: center;
+    padding: 20px; 
+    margin: 0; 
+ }
+ 
+ /* Navigation Styles */
+ nav {
+    background-color: black; 
+    overflow: hidden;
+ }
+ 
+ nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: inline-block; 
+ }
+ 
+ nav a:hover {
+    color: tomato;
+ }
+ 
+ 
+ /* Footer Styles */
+ footer {
+    text-align: center;
+    padding: 10px; 
+ }
+ 
+ /* Card Grid Styles */
+ .card-grid {
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px; 
+    flex-wrap: wrap;
+ }
+ 
+ /* Event Card Styles */
+ .event1, .event2 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #d8e2ef; 
+    margin: 10px; 
+    border-radius: 5px; 
+ }
+ 
+ .event1 {
+    margin-right: 5px; 
+ }
+ .event1:hover{
+    background-color: whitesmoke;
+ }
+ .event2:hover{
+    background-color: whitesmoke;
+ }
+ 
+ .but {
+    text-align: center;
+    color: white;
+    background-color: rgb(226, 71, 226);
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+ }
+ 
+ .but:hover {
+    background-color: rgb(135, 25, 135);
+ }
+ .e1{
+    text-decoration: none;
+ }
+ .e2{
+    text-decoration: none;
+ }
+ .card-title{
+    text-align: center;
+    color: black ;
+ }
+ .card-text{
+    color: black;
+ }
